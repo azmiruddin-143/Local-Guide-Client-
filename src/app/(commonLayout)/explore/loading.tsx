@@ -1,4 +1,3 @@
-
 import LocalGuideLoading from "@/components/common/LocalGuideLoading";
 
 export default function Loading() {

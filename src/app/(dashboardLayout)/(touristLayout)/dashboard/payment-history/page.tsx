@@ -69,3 +69,4 @@ const PaymentHistoryPage = async ({ searchParams }: PageProps) => {
 };
 
 export default PaymentHistoryPage;
+

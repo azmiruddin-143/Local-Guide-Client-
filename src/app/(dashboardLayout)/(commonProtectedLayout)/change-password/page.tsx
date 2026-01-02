@@ -1,4 +1,3 @@
-
 import ChangePasswordForm from "@/components/modules/Common_Protected/ChangePasswordForm";
 import { Metadata } from "next";
 

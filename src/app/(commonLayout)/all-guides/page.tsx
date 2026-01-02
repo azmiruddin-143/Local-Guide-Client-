@@ -1,4 +1,3 @@
-
 import { Metadata } from 'next';
 import AllGuidesContent from '@/components/modules/Guide/All_guides/AllGuidesContent';
 import { getAllGuides, getGuideFilterOptions } from '@/services/auth/allGuides';
@@ -39,3 +38,4 @@ export default async function AllGuidesPage({ searchParams }: AllGuidesPageProps
     </div>
   );
 }
+

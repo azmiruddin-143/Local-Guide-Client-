@@ -1,4 +1,3 @@
-
 import { Metadata } from "next";
 import { Suspense } from "react";
 import { getMyAvailability } from "@/services/guide/availability.service";
