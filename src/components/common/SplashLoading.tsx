@@ -27,11 +27,11 @@ export default function SplashLoading() {
 
           {/* Center Icon */}
           <div className="relative flex items-center justify-center h-32">
-            <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-2xl animate-pulse">
+            <div className="w-30 h-30 bg-white rounded-full flex items-center justify-center shadow-2xl animate-pulse">
               <Image 
                 src="/localGuide.png" 
-                width={50} 
-                height={50} 
+                width={100} 
+                height={100} 
                 alt="Local Guide Logo"
                 className="object-contain"
               />

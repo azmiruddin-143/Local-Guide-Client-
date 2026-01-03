@@ -100,8 +100,8 @@ const PublicNavbar = async () => {
         >
           <Image
             src={'/localGuide.png'}
-            width={50}
-            height={50}
+            width={220}
+            height={100}
             alt="Local Guide Logo"
           />
         </Link>

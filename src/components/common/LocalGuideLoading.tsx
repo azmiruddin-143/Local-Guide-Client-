@@ -28,11 +28,11 @@ export default function LocalGuideLoading({
 
             {/* Center Icon */}
             <div className="relative flex items-center justify-center h-32">
-              <div className="w-20 h-20 bg-white border-2 border-primary/20 rounded-full flex items-center justify-center shadow-lg">
+              <div className="w-30 h-30 bg-white border-2 border-primary/20 rounded-full flex items-center justify-center shadow-lg">
                 <Image 
                   src="/localGuide.png" 
-                  width={50} 
-                  height={50} 
+                  width={100} 
+                  height={100} 
                   alt="Local Guide Logo" 
                   className="object-contain"
                 />

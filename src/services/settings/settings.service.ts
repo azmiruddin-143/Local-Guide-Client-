@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 "use server";
 
 import { serverFetch } from "@/lib/server-fetch";
@@ -12,6 +14,7 @@ export const getPlatformSettings = async () => {
 
     const result = await response.json();
     return result;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } catch (error: any) {
     console.error("Error fetching platform settings:", error);
     return {
@@ -49,6 +52,7 @@ export const updatePlatformSettings = async (updates: any) => {
     }
 
     return result;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } catch (error: any) {
     console.error("Error updating platform settings:", error);
     return {

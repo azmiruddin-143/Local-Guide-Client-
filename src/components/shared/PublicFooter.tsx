@@ -5,6 +5,7 @@ import { IPlatformSettings } from '@/types/settings.interface';
 
 async function PublicFooter() {
   const {data: settings } = await getPlatformSettings() 
+  console.log(settings);
   return (
     <footer className="bg-gray-900 text-gray-300">
       <div className="container mx-auto px-4 py-12">
@@ -150,13 +151,13 @@ async function PublicFooter() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-3">
                 <Mail className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                <a href="mailto:support@localguide.com" className="hover:text-primary transition-colors">
+                <a href="mailto:support@localguidebd.com" className="hover:text-primary transition-colors">
                   {settings?.contacts?.supportEmail}
                 </a>
               </li>
               <li className="flex items-start gap-3">
                 <Phone className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                <a href="tel:+1234567890" className="hover:text-primary transition-colors">
+                <a href="tel:+8801933946077" className="hover:text-primary transition-colors">
                 {settings?.contacts?.phone}
                 </a>
               </li>
@@ -175,7 +176,7 @@ async function PublicFooter() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-center items-center gap-4 text-sm text-gray-400">
           <p>
-            &copy; {new Date().getFullYear()} LocalGuide. All rights reserved.
+            &copy; {new Date().getFullYear()} LocalGuidebd. All rights reserved.
           </p>
         </div>
       </div>

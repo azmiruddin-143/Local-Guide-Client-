@@ -356,7 +356,7 @@ export default function SafetyPage() {
                 <h3 className="font-semibold text-xl mb-3">Local Guide Support</h3>
                 <p className="text-red-100 mb-2">24/7 Safety Hotline:</p>
                 <p className="text-2xl font-bold">+1-800-SAFE-GUIDE</p>
-                <p className="text-red-100 mt-2">safety@localguide.com</p>
+                <p className="text-red-100 mt-2">safety@localguidebd.com</p>
               </div>
             </div>
           </div>

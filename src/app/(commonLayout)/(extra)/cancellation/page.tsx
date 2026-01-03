@@ -442,10 +442,10 @@ export default function CancellationPage() {
                 <span className="font-semibold">Email:</span> cancellations@localguide.com
               </p>
               <p className="text-lg">
-                <span className="font-semibold">Support:</span> support@localguide.com
+                <span className="font-semibold">Support:</span> support@localguidebd.com
               </p>
               <p className="text-lg">
-                <span className="font-semibold">Phone:</span> +1-800-LOCAL-GUIDE
+                <span className="font-semibold">Phone:</span> +8801933946077-LOCAL-GUIDE
               </p>
             </div>
             <div className="mt-8 pt-8 border-t border-cyan-400">

@@ -38,14 +38,12 @@ const DashboardMobileSidebar = ({
   return (
     <div className="flex h-full flex-col bg-gradient-to-b from-card to-card/95">
       {/* Logo */}
-      <div className="flex h-16 items-center border-b px-6 bg-card/50 backdrop-blur-sm">
-        <Link href={dashboardHome} className="flex items-center space-x-2 group">
+      <div className="flex h-16 items-center border-b  bg-card/50 backdrop-blur-sm">
+        <Link href={"/"} className="flex  space-x-2 group">
           <div className="">
-                     <Image src={'/localGuide.png'} alt="localGuide" width={50} height={50} />
+                     <Image src={'/localGuide.png'} alt="localGuide" width={180} height={80} />
                     </div>
-          <span className="text-lg font-bold bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
-            Local Guide
-          </span>
+       
         </Link>
       </div>
       <SheetTitle className="sr-only">Navigation Menu</SheetTitle>

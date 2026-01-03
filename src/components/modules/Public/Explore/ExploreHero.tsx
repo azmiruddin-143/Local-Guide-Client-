@@ -20,7 +20,7 @@ export default function ExploreHero() {
   };
 
   return (
-    <section className="relative bg-gradient-to-br from-primary/10 via-blue-50 to-indigo-50 py-16 md:py-20">
+    <section className="relative bg-gradient-to-br from-primary/10 via-blue-200 to-orange-200 py-16 md:py-20">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-8">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
@@ -40,7 +40,7 @@ export default function ExploreHero() {
                 What are you looking for?
               </label>
               <div className="relative">
-                <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-400" />
+                <Search className="absolute  left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-400" />
                 <Input
                   placeholder="Food tours, history walks..."
                   className="pl-10 h-12"
@@ -68,20 +68,20 @@ export default function ExploreHero() {
         {/* Quick Stats */}
         <div className="max-w-5xl mx-auto mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
           <div className="text-center">
-            <div className="text-2xl md:text-3xl font-bold text-primary">500+</div>
-            <div className="text-sm text-gray-600">Tours Available</div>
-          </div>
-          <div className="text-center">
             <div className="text-2xl md:text-3xl font-bold text-primary">200+</div>
-            <div className="text-sm text-gray-600">Local Guides</div>
+            <div className="text-sm text-gray-800">Tours Available</div>
           </div>
           <div className="text-center">
-            <div className="text-2xl md:text-3xl font-bold text-primary">50+</div>
-            <div className="text-sm text-gray-600">Cities</div>
+            <div className="text-2xl md:text-3xl font-bold text-primary">80+</div>
+            <div className="text-sm text-gray-800">Local Guides</div>
           </div>
           <div className="text-center">
-            <div className="text-2xl md:text-3xl font-bold text-primary">10k+</div>
-            <div className="text-sm text-gray-600">Happy Tourists</div>
+            <div className="text-2xl md:text-3xl font-bold text-primary">30+</div>
+            <div className="text-sm text-gray-800">Cities</div>
+          </div>
+          <div className="text-center">
+            <div className="text-2xl md:text-3xl font-bold text-primary">5k+</div>
+            <div className="text-sm text-gray-800">Happy Tourists</div>
           </div>
         </div>
       </div>
