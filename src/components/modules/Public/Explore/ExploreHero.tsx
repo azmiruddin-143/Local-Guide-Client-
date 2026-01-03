@@ -80,7 +80,7 @@ export default function ExploreHero() {
             <div className="text-sm text-gray-800">Cities</div>
           </div>
           <div className="text-center">
-            <div className="text-2xl md:text-3xl font-bold text-primary">5k+</div>
+            <div className="text-2xl md:text-3xl font-bold text-primary">2k+</div>
             <div className="text-sm text-gray-800">Happy Tourists</div>
           </div>
         </div>

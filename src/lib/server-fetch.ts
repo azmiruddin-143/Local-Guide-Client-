@@ -2,7 +2,7 @@
 import { getCookie } from "@/lib/tokenHandlers";
 
 
-const BACKEND_API_URL = process.env.NEXT_PUBLIC_BASE_API_URL || "http://localhost:5000/api";
+const BACKEND_API_URL = process.env.NEXT_PUBLIC_BASE_API_URL || "https://local-guide-server-bd.vercel.app/api";
 
 // /auth/login
 const serverFetchHelper = async (endpoint: string, options: RequestInit): Promise<Response> => {

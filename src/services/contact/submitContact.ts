@@ -1,10 +1,12 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use server";
 
 import { zodValidator } from "@/lib/zodValidator";
 import { contactValidationSchema } from "@/zod/contact.validation";
 
-const BACKEND_API_URL = process.env.NEXT_PUBLIC_BASE_API_URL || "http://localhost:5000/api";
+const BACKEND_API_URL = process.env.NEXT_PUBLIC_BASE_API_URL || "https://local-guide-server-bd.vercel.app/api";
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export async function submitContact(_prevState: any, formData: FormData) {
   try {
     // Extract form data
