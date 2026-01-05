@@ -25,6 +25,7 @@ export default async function TourDetailsPage({ params }: TourDetailsPageProps) 
   const tour = tourResponse.data;
 
   // Fetch availability if guide ID exists
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   let availability: any[] = [];
   if (tour.guideId?._id) {
     const availabilityResponse = await getGuideAvailability(tour.guideId._id);
